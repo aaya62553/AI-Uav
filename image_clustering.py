@@ -1,7 +1,6 @@
 
 import random, cv2, os, shutil
 from sklearn.cluster import KMeans
-from sklearn.decomposition import PCA
 import numpy as np
 
 
