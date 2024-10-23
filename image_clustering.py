@@ -4,8 +4,7 @@ from sklearn.cluster import KMeans
 import numpy as np
 
 
-
-class image_clustering:
+class ImageClustering:
 
 	def __init__(self, folder_path="data", n_clusters=5,max_examples=None):
 		paths = os.listdir(folder_path)
@@ -65,7 +64,7 @@ if __name__ == "__main__":
 
 	data_path = "val" 
 
-	temp = image_clustering(data_path, number_of_clusters,100)
+	temp = ImageClustering(data_path, number_of_clusters,100)
 	temp.load_images()
 	temp.clustering()
 
