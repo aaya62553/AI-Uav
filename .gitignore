@@ -2,3 +2,5 @@
 *.png
 *.DS_Store
 *.json
+*.h5
+*.zip
