@@ -6,7 +6,7 @@ import numpy as np
 
 class ImageClustering:
 
-	#Initialisation des attributs
+	#Test
 	def __init__(self, folder_path="data", n_clusters=5,max_examples=None):
 		paths = os.listdir(folder_path) #liste des fichiers dans le dossier
 		if max_examples == None:
